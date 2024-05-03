@@ -1,0 +1,113 @@
+.registration-form {
+    text-align: left; 
+    background-color: rgb(233, 233, 233);
+    margin: 150px 15% 50px;
+    padding: 20px;
+    border: 1px solid #ccc;
+    border-radius: 10px; /* Rounded corners for the form */
+  }
+  
+  .form-header {
+    text-align: center;
+    margin-bottom: 20px;
+  }
+  
+  .services-container {
+    display: flex;
+  }
+  
+  .services-column {
+    flex: 1;
+    background-color: #fff;
+    padding: 10px 10px 10px 10px;
+    border-radius: 10px;
+    margin-left: 10px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1); /* Add a subtle shadow */
+
+  }
+  
+  .services-column h3 {
+    margin-bottom: 10px;
+  }
+  
+  hr {
+    border: 0;
+    border-top: 1px solid #ccc;
+    margin: 20px 0;
+  }
+  
+  .form-row-chart,
+  .form-row-name,
+  .form-row-diversity,
+  .form-row-age,
+  .form-row-loc,
+  .form-row-contact,
+  .form-row-emergency {
+    display: flex;
+    flex-wrap: wrap; /* Wrap items if they exceed the container's width */
+    margin-bottom: 10px; /* Add some space between each container */
+    padding: 10px; /* Add padding inside the containers */
+    border-radius: 10px; /* Rounded corners for the containers */
+    background-color: #fff; /* Background color for the containers */
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1); /* Add a subtle shadow */
+  }
+  
+  /* Style for labels and inputs inside the containers */
+  .form-row-chart label,
+  .form-row-name label,
+  .form-row-diversity label,
+  .form-row-age label,
+  .form-row-loc label,
+  .form-row-contact label,
+  .form-row-emergency label {
+    display: block; /* Display labels as blocks */
+    margin-bottom: 5px; /* Add some space below each label */
+  }
+  
+  /* Style for inputs inside the containers */
+  .form-row-chart input,
+  .form-row-name input,
+  .form-row-diversity input,
+  .form-row-age input,
+  .form-row-loc textarea,
+  .form-row-contact input,
+  .form-row-emergency input {
+    flex: 1; /* Take up remaining space */
+    padding: 5px; /* Add padding inside inputs */
+    border: 1px solid #ccc; /* Add a border */
+    border-radius: 5px; /* Rounded corners for inputs */
+    box-sizing: border-box; /* Include padding and border in the element's total width and height */
+    margin-top: 5px; /* Add some space above each input */
+  }
+  
+  /* Style for select elements inside the containers */
+  .form-row-diversity select {
+    flex: 1; /* Take up remaining space */
+    padding: 5px; /* Add padding inside selects */
+    border: 1px solid #ccc; /* Add a border */
+    border-radius: 5px; /* Rounded corners for selects */
+  }
+  
+  /* Style for textarea inside the container */
+  .form-row-loc textarea {
+    flex: 1; /* Take up remaining space */
+    padding: 5px; /* Add padding inside textarea */
+    border: 1px solid #ccc; /* Add a border */
+    border-radius: 5px; /* Rounded corners for textarea */
+    box-sizing: border-box; /* Include padding and border in the element's total width and height */
+    margin-top: 5px; /* Add some space above textarea */
+    resize: vertical; /* Allow vertical resizing */
+  }
+  
+  /* Add margin to the smallest divs */
+  .form-row-chart div,
+  .form-row-name div,
+  .form-row-diversity div,
+  .form-row-age div,
+  .form-row-loc div,
+  .form-row-contact div,
+  .form-row-emergency div {
+    flex: 1; /* Take up remaining space */
+    margin-right: 10px; /* Add margin to the right of the div */
+  }
+  

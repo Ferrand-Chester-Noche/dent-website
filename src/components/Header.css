@@ -1,0 +1,54 @@
+/* Header.css */
+.header {
+    /* background-color: #9cfcff; */
+    background-color: maroon;
+    position: fixed;
+    top: 0px;
+    left: 0px;
+    right: 0px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    padding-top: 5px;
+    padding-bottom: 5px;
+    padding-left: 20px;
+    padding-right: 10px;
+  }
+  
+  .left {
+    display: flex;
+    align-items: center;
+  }
+  
+  .logo {
+    height: 100px;
+    margin-right: 10px;
+  }
+
+  .loginBtn {
+    background-color: rgb(0, 77, 0);
+    color: white;
+    border-color: rgb(0, 77, 0);
+    border-style: solid;
+    height: auto;
+    border-radius: 20px;
+    padding: 5px 10px;
+    cursor: pointer;
+    transition: .25s;
+    font-size: 18px;
+    margin-right: 30px;
+  }
+  .loginBtn:hover {
+    background-color: white;
+    border-color: rgb(0, 77, 0);
+    color: rgb(0, 77, 0);
+  }
+  
+  .text {
+    color: white;
+    font-size: 20px;
+  }
+  
+ 
