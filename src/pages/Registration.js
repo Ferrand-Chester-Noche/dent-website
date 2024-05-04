@@ -18,6 +18,7 @@ const Registration = () => {
           <input type='text' />
         </div>
       </div>
+      <p>Personal Information</p>
       <div className='form-row-name'>
         <div className='sname'>
           <label>Surname:</label>
@@ -37,6 +38,7 @@ const Registration = () => {
         <div className='gender'>
           <label>Gender:</label>
           <select>
+            <option>Select Option</option>
             <option>Male</option>
             <option>Female</option>
           </select>
@@ -44,6 +46,7 @@ const Registration = () => {
         <div className='civil-stat'>
           <label>Civil Status:</label>
           <select>
+            <option>Select Option</option>
             <option>Single</option>
             <option>Married</option>
             <option>Widowed</option>
@@ -68,14 +71,15 @@ const Registration = () => {
         </div>
       </div>
       <div className='form-row-contact'>
-        <div>
+        <div className='contact-no'>
           <label>Cellphone No.:</label>
           <input type='text' />
         </div>
       </div>
+      <p>Contact in case of emergency</p>
       <div className='form-row-emergency'>
         <div className='person'>
-          <label>Person to Notify:</label>
+          <label>Name:</label>
           <input type='text' />
         </div>
         <div className='person-no'>

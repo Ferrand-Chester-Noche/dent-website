@@ -1,7 +1,7 @@
 .registration-form {
     text-align: left; 
     background-color: rgb(233, 233, 233);
-    margin: 150px 15% 50px;
+    margin: 150px 25% 50px;
     padding: 20px;
     border: 1px solid #ccc;
     border-radius: 10px; /* Rounded corners for the form */
@@ -61,7 +61,7 @@
   .form-row-contact label,
   .form-row-emergency label {
     display: block; /* Display labels as blocks */
-    margin-bottom: 5px; /* Add some space below each label */
+    margin-top: 10px;
   }
   
   /* Style for inputs inside the containers */
@@ -72,8 +72,8 @@
   .form-row-loc textarea,
   .form-row-contact input,
   .form-row-emergency input {
-    flex: 1; /* Take up remaining space */
-    padding: 5px; /* Add padding inside inputs */
+    width: 100%;
+    padding: 5px; /* Adjust padding if needed */
     border: 1px solid #ccc; /* Add a border */
     border-radius: 5px; /* Rounded corners for inputs */
     box-sizing: border-box; /* Include padding and border in the element's total width and height */
@@ -87,18 +87,7 @@
     border: 1px solid #ccc; /* Add a border */
     border-radius: 5px; /* Rounded corners for selects */
   }
-  
-  /* Style for textarea inside the container */
-  .form-row-loc textarea {
-    flex: 1; /* Take up remaining space */
-    padding: 5px; /* Add padding inside textarea */
-    border: 1px solid #ccc; /* Add a border */
-    border-radius: 5px; /* Rounded corners for textarea */
-    box-sizing: border-box; /* Include padding and border in the element's total width and height */
-    margin-top: 5px; /* Add some space above textarea */
-    resize: vertical; /* Allow vertical resizing */
-  }
-  
+    
   /* Add margin to the smallest divs */
   .form-row-chart div,
   .form-row-name div,
@@ -108,6 +97,23 @@
   .form-row-contact div,
   .form-row-emergency div {
     flex: 1; /* Take up remaining space */
-    margin-right: 10px; /* Add margin to the right of the div */
+    /* background-color: blue; */
+    margin-right: 5px; /* Add margin to the right of the div */
   }
   
+  .sname,
+  .fname,
+  .mname,
+  .gender,
+  .civil-stat,
+  .age,
+  .bday,
+  .address,
+  .contact-no,
+  .person,
+  .person-no,
+  .relation{
+    flex: 1;
+  }
+  
+
